@@ -6,3 +6,4 @@
 - Use React.
 - Use Framer Motion.
 - Wrriten by Typescript.
+- Styled by Tailwindcss.
