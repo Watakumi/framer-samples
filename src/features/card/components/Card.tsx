@@ -3,10 +3,6 @@ import { FrontCard } from "./FrontCard";
 import classes from "../assets/Card.module.css";
 import { useState } from "react";
 
-const variants = {
-  reverse: { rotateY: "180deg" },
-};
-
 export function Card(): JSX.Element {
   const [isReverse, setIsReverse] = useState<boolean>(false);
   return (
