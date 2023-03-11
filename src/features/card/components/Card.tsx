@@ -12,7 +12,7 @@ export function Card(): JSX.Element {
   return (
     <div className={classes.ReversibleCard}>
       <button
-        className='relative w-full h-full'
+        className="relative w-full h-full"
         onClick={() => setIsReverse((isReverse) => !isReverse)}
       >
         <FrontCard isReverse={isReverse} />
