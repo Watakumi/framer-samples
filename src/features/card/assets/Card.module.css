@@ -27,6 +27,26 @@
   flex-direction: row;
 }
 
+.FrontCardTitle {
+  @apply text-3xl text-white-500 font-bold;
+}
+
+.FrontCardNote {
+  @apply text-white-500 font-medium;
+}
+
+.FrontCardDescription {
+  @apply w-2/3 text-white-500 font-semibold text-2xl flex flex-col justify-center;
+}
+
 .BackCard {
   transform-style: preserve-3d;
+}
+
+.BackCardTitle {
+  @apply text-3xl font-bold text-black-500;
+}
+
+.BackCardList {
+  @apply flex flex-col items-start text-black-500 font-semibold text-lg gap-4;
 }

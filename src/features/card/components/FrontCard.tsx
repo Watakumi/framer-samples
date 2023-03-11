@@ -27,11 +27,11 @@ export function FrontCard({ isReverse }: Props): JSX.Element {
           />
         </div>
         <div>
-          <p className={classes.CardTitle}>Card</p>
-          <p className='text-white-500 font-medium'>Hogehoge</p>
+          <p className={classes.FrontCardTitle}>Card</p>
+          <p className={classes.FrontCardNote}>Hogehoge</p>
         </div>
       </div>
-      <div className='w-2/3 text-white-500 font-semibold text-2xl flex flex-col justify-center'>
+      <div className={classes.FrontCardDescription}>
         <p>This is a test description.</p>
       </div>
     </motion.div>

@@ -18,7 +18,14 @@ export function BackCard({ isReverse }: Props): JSX.Element {
       variants={variants}
       className={`${classes.Card} ${classes.BackCard}`}
     >
-      <p className='text-3xl font-bold'>Reverse Success!!!</p>
+      <p className={classes.BackCardTitle}>Reverse Success!!!</p>
+      <ul className={classes.BackCardList}>
+        <li>Use React.</li>
+        <li>Use Vite.</li>
+        <li>Use FramerMotion.</li>
+        <li>Wrriten by Typescript.</li>
+        <li>Styled by css modules and tailwindcss.</li>
+      </ul>
     </motion.div>
   );
 }
