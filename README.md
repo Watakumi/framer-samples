@@ -7,3 +7,5 @@
 - Use Framer Motion.
 - Wrriten by Typescript.
 - Styled by Tailwindcss.
+
+![FramerSamples]('./public/FramerSamples.png' "FramerSamples")
