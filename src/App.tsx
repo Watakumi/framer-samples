@@ -3,8 +3,8 @@ import Card from "./features/card";
 
 function App() {
   return (
-    <div className="flex flex-col h-full">
-      <h1 className="h-[10%] text-primary font-extrabold">
+    <div className="flex h-full flex-col">
+      <h1 className="h-[10%] font-extrabold text-primary">
         Framer Motion Samples
       </h1>
       <div className="h-[90%]">
