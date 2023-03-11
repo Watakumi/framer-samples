@@ -8,4 +8,4 @@
 - Wrriten by Typescript.
 - Styled by Tailwindcss.
 
-![FramerSamples]('./public/FramerSamples.png' "FramerSamples")
+![FramerSamples](./public/FramerSamples.png)
