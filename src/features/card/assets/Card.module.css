@@ -1,5 +1,6 @@
 .ReversibleCard {
   background-color: transparent;
+  max-width: 500px;
   @apply aspect-[2/1] w-full;
 }
 
@@ -40,7 +41,13 @@
 }
 
 .BackCard {
+  --sb-track-color: #dcae8f;
+  --sb-thumb-color: #ff6e31;
+  --sb-size: 10px;
+
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
   transform-style: preserve-3d;
+  @apply flex flex-col gap-4;
 }
 
 .BackCardTitle {
@@ -48,5 +55,19 @@
 }
 
 .BackCardList {
-  @apply flex flex-col items-start gap-4 text-lg font-semibold text-black-500;
+  @apply flex flex-col items-start gap-4 overflow-y-scroll text-lg font-semibold text-black-500;
+}
+
+.BackCardList::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+.BackCardList::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+.BackCardList::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
 }
