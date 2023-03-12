@@ -1,4 +1,4 @@
-import { Avatar } from "./Avatar";
+import { Avatar } from "../../../shares/components/avatar/Avatar";
 import { motion } from "framer-motion";
 import classes from "../assets/Card.module.css";
 

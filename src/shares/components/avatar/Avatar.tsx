@@ -1,5 +1,5 @@
 import * as RadixAvatar from "@radix-ui/react-avatar";
-import "../assets/Avatar.css";
+import "./Avatar.css";
 interface Props {
   src: string;
   name: string;
