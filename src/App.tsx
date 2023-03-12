@@ -17,7 +17,12 @@ function App() {
             BrandCard
           </h2>
           <hr className="mb-4 border-[1.5px] text-[#000] opacity-[0.87]" />
-          <BrandCard />
+          <div className="grid w-full grid-flow-col auto-rows-max gap-4">
+            <BrandCard />
+            <BrandCard />
+            <BrandCard />
+            <BrandCard />
+          </div>
         </div>
       </div>
     </div>
