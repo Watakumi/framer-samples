@@ -40,7 +40,7 @@ export function BrandCard(): JSX.Element {
         </div>
       </div>
       <div className="flex flex-row justify-start">
-        <button className="aspect-square rounded-full bg-[#179aff] p-1 font-semibold text-[#fff] hover:opacity-70">
+        <button className="aspect-square rounded-full bg-[#179aff] p-1 font-semibold text-[#fff] hover:opacity-70 dark:bg-[#0c4977] dark:text-[#ededed]">
           <svg
             width="15"
             height="15"
