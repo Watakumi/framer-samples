@@ -6,33 +6,37 @@ export function BrandCard(): JSX.Element {
     <motion.div
       transition={{ duration: 0.2 }}
       whileHover={{ scale: 1.1 }}
-      className="flex aspect-square w-[240px] flex-col gap-4 rounded-3xl bg-[#fff] p-4 shadow-lg"
+      className="flex aspect-square w-[240px] flex-col gap-4 rounded-3xl bg-[#fff] p-4 shadow-lg dark:bg-[#000]"
     >
       <div className="flex flex-row justify-between">
         <Avatar
           src="https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&w=128&h=128&dpr=2&q=80"
           name="WA"
         />
-        <div className="flex aspect-[1.25/1] flex-col items-center justify-center text-[4px] font-semibold text-white-500">
-          <span className="w-full rounded-2xl bg-[#01ca8a] p-1">Free</span>
+        <div className="flex aspect-[1.25/1] flex-col items-center justify-center text-[4px] font-semibold text-white-500 dark:text-[#ededed]">
+          <span className="w-full rounded-2xl bg-[#01ca8a] p-1 dark:bg-[#007852]">
+            Free
+          </span>
         </div>
       </div>
       <div className="flex flex-col items-start">
-        <div className="text-black-500">Genre</div>
-        <div className="text-2xl font-bold text-black-500">BrandName</div>
+        <div className="text-black-500 dark:text-[#ededed]">Genre</div>
+        <div className="text-2xl font-bold text-black-500 dark:text-[#ededed]">
+          BrandName
+        </div>
       </div>
       <div className="flex flex-row justify-between">
         <div className="flex flex-col items-start">
-          <span className="text-xs">Rating</span>
-          <span className="text-base">4.5</span>
+          <span className="text-xs dark:text-[#ededed]">Rating</span>
+          <span className="text-base dark:text-[#ededed]">4.5</span>
         </div>
         <div className="flex flex-col items-start">
-          <span className="text-xs">Size</span>
-          <span className="text-base">23.5mb</span>
+          <span className="text-xs dark:text-[#ededed]">Size</span>
+          <span className="text-base dark:text-[#ededed]">23.5mb</span>
         </div>
         <div className="flex flex-col items-start">
-          <span className="text-xs">Diwbkiads</span>
-          <span className="text-base">5m</span>
+          <span className="text-xs dark:text-[#ededed]">Diwbkiads</span>
+          <span className="text-base dark:text-[#ededed]">5m</span>
         </div>
       </div>
       <div className="flex flex-row justify-start">
