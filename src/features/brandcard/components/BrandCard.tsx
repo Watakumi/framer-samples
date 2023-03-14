@@ -27,16 +27,28 @@ export function BrandCard(): JSX.Element {
       </div>
       <div className="flex flex-row justify-between">
         <div className="flex flex-col items-start">
-          <span className="text-xs dark:text-[#ededed]">Rating</span>
-          <span className="text-base dark:text-[#ededed]">4.5</span>
+          <span className="text-xs text-black-500 dark:text-[#ededed]">
+            Rating
+          </span>
+          <span className="text-base text-black-500 dark:text-[#ededed]">
+            4.5
+          </span>
         </div>
         <div className="flex flex-col items-start">
-          <span className="text-xs dark:text-[#ededed]">Size</span>
-          <span className="text-base dark:text-[#ededed]">23.5mb</span>
+          <span className="text-xs text-black-500 dark:text-[#ededed]">
+            Size
+          </span>
+          <span className="text-base text-black-500 dark:text-[#ededed]">
+            23.5mb
+          </span>
         </div>
         <div className="flex flex-col items-start">
-          <span className="text-xs dark:text-[#ededed]">Diwbkiads</span>
-          <span className="text-base dark:text-[#ededed]">5m</span>
+          <span className="text-xs text-black-500 dark:text-[#ededed]">
+            Diwbkiads
+          </span>
+          <span className="text-base text-black-500  dark:text-[#ededed]">
+            5m
+          </span>
         </div>
       </div>
       <div className="flex flex-row justify-start">
